@@ -1,2 +1,31 @@
-
 /* Your CSS Code here. */
+/* styles.css */
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0; /* Background color for better visibility */
+}
+
+.holder {
+    display: flex;
+    flex-wrap: wrap;  /* Allows items to wrap onto the next line */
+    justify-content: space-between;  /* Distributes space between items */
+    width: 90%; /* Adjust width as needed */
+    max-width: 1200px; /* Optional: Set a maximum width for large screens */
+    box-sizing: border-box;
+}
+
+.item {
+    flex: 1 1 auto; /* Allows items to grow and shrink as needed */
+    margin: 5px; /* Space between items */
+    padding: 10px; /* Padding inside items */
+    background-color: #007bff; /* Background color for visibility */
+    color: white;
+    text-align: center; /* Center text inside items */
+    border-radius: 5px; /* Optional: Rounded corners for items */
+    box-sizing: border-box;
+}
